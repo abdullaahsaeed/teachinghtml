@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@400;700&display=swap');
+
+
+.logo{
+    width:100px;
+    height:100px;
+    object-fit: cover;  
+}
+
+.header{
+    display:flex;
+     align-items: center; /*  CROSSS AXIS  */
+    justify-content: space-between ; /*  MAIN AXIS  */
+}
+
+.nav{
+    display: flex;
+}
+
+.navItem{
+    margin-left: 15px;
+}
+
+
+.grid{
+    display:grid;
+    grid-template-columns: repeat(4,100px);
+    grid-gap:10px;
+    
+    
+}
+
+.gridItem{
+    background-color: #58A6FF;
+    color: white;
+    font-family: dongle;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    border: 4px solid black;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    /* border-radius: 30px; */
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 255, 0.179);
+
+}
